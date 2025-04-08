@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home"
-        android:title="Home" />
-
+        android:id="@+id/nav_trends"
+        android:icon="@drawable/ic_trends"
+        android:title="Trends" />
     <item
-        android:id="@+id/navigation_explore"
-        android:icon="@drawable/ic_explore"
-        android:title="Explore" />
-
+        android:id="@+id/nav_vibes"
+        android:icon="@drawable/ic_vibes"
+        android:title="Vibes" />
     <item
-        android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_notifications"
-        android:title="Notifications" />
+        android:id="@+id/nav_tea"
+        android:icon="@drawable/ic_tea"
+        android:title="Tea" />
 </menu> 

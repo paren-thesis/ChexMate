@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Basic Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2196F3</color>
+    <color name="gray">#757575</color>
+    <color name="gray_light">#E0E0E0</color>
+
+    <!-- Primary Colors -->
+    <color name="ghibli_primary">#FF6B6B</color> <!-- Soft red from Howl's Moving Castle -->
+    <color name="ghibli_primary_dark">#E55A5A</color>
+    <color name="ghibli_primary_light">#FF8A8A</color>
+
+    <!-- Secondary Colors -->
+    <color name="ghibli_secondary">#4ECDC4</color> <!-- Teal from Spirited Away -->
+    <color name="ghibli_secondary_dark">#3DBDB4</color>
+    <color name="ghibli_secondary_light">#5EDDD4</color>
+
+    <!-- Background Colors -->
+    <color name="ghibli_background">#FFF5E6</color> <!-- Cream from My Neighbor Totoro -->
+    <color name="ghibli_surface">#FFFFFF</color>
+    <color name="ghibli_error">#FF5252</color>
+
+    <!-- Text Colors -->
+    <color name="ghibli_text_primary">#2C3E50</color>
+    <color name="ghibli_text_secondary">#7F8C8D</color>
+
+    <!-- Accent Colors -->
+    <color name="ghibli_accent_1">#FFD166</color> <!-- Yellow from Kiki's Delivery Service -->
+    <color name="ghibli_accent_2">#06D6A0</color> <!-- Green from Princess Mononoke -->
+    <color name="ghibli_accent_3">#118AB2</color> <!-- Blue from Ponyo -->
 </resources>

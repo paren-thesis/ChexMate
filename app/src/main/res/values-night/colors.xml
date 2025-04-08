@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Primary Colors -->
+    <color name="ghibli_primary">#FF8A8A</color> <!-- Lighter red for better visibility -->
+    <color name="ghibli_primary_dark">#FF6B6B</color>
+    <color name="ghibli_primary_light">#FFA9A9</color>
+
+    <!-- Secondary Colors -->
+    <color name="ghibli_secondary">#5EDDD4</color> <!-- Brighter teal -->
+    <color name="ghibli_secondary_dark">#4ECDC4</color>
+    <color name="ghibli_secondary_light">#6EEDE4</color>
+
+    <!-- Background Colors -->
+    <color name="ghibli_background">#1A1A2E</color> <!-- Dark navy from night scenes -->
+    <color name="ghibli_surface">#16213E</color>
+    <color name="ghibli_error">#FF6B6B</color>
+
+    <!-- Text Colors -->
+    <color name="ghibli_text_primary">#E6E6E6</color>
+    <color name="ghibli_text_secondary">#B3B3B3</color>
+
+    <!-- Accent Colors -->
+    <color name="ghibli_accent_1">#FFD166</color> <!-- Yellow remains bright -->
+    <color name="ghibli_accent_2">#06D6A0</color> <!-- Green remains vibrant -->
+    <color name="ghibli_accent_3">#118AB2</color> <!-- Blue remains clear -->
+</resources> 

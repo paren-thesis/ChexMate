@@ -1,17 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
-        <shape android:shape="rectangle">
-            <solid android:color="#2196F3" />
-            <corners android:radius="16dp" />
-        </shape>
-    </item>
-    <item android:gravity="center">
-        <text
-            android:text="C"
-            android:textColor="@color/white"
-            android:textSize="48sp"
-            android:textStyle="bold"
-            android:fontFamily="sans-serif-medium" />
-    </item>
-</layer-list> 
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background Circle with Gradient -->
+    <path
+        android:pathData="M54,0L54,0A54,54 0,0 1,108 54L108,54A54,54 0,0 1,54 108L54,108A54,54 0,0 1,0 54L0,54A54,54 0,0 1,54 0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startColor="@color/ghibli_primary"
+                android:endColor="@color/ghibli_secondary"
+                android:type="linear"
+                android:angle="135"/>
+        </aapt:attr>
+    </path>
+
+    <!-- Totoro-inspired Silhouette -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30c-13.25,0 -24,10.75 -24,24s10.75,24 24,24 24,-10.75 24,-24S67.25,30 54,30zM54,70c-8.84,0 -16,-7.16 -16,-16s7.16,-16 16,-16 16,7.16 16,16S62.84,70 54,70z"/>
+
+    <!-- Whiskers (Left) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,50l-12,-4M40,54l-12,0M40,58l-12,4"/>
+
+    <!-- Whiskers (Right) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,50l12,-4M68,54l12,0M68,58l12,4"/>
+
+    <!-- Eyes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,50m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,50m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+
+    <!-- Nose -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,56m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+
+    <!-- Small Leaves/Dust Sprites -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,30m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,78m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,78m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+
+</vector> 
