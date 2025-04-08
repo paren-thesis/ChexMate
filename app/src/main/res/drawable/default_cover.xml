@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="1080dp"
+    android:height="360dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="360">
+
+    <!-- Background with Gradient -->
+    <path
+        android:pathData="M0,0h1080v360h-1080z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startColor="@color/ghibli_primary"
+                android:endColor="@color/ghibli_secondary"
+                android:type="linear"
+                android:angle="135"/>
+        </aapt:attr>
+    </path>
+
+    <!-- Decorative Pattern -->
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M0,180 A180,180 0 0,1 360,180 A180,180 0 0,1 0,180"/>
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M360,180 A180,180 0 0,1 720,180 A180,180 0 0,1 360,180"/>
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M720,180 A180,180 0 0,1 1080,180 A180,180 0 0,1 720,180"/>
+
+    <!-- Small Decorative Elements -->
+    <path
+        android:fillColor="#1AFFFFFF"
+        android:pathData="M120,60m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+    <path
+        android:fillColor="#1AFFFFFF"
+        android:pathData="M480,120m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+    <path
+        android:fillColor="#1AFFFFFF"
+        android:pathData="M840,60m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+    <path
+        android:fillColor="#1AFFFFFF"
+        android:pathData="M240,300m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+    <path
+        android:fillColor="#1AFFFFFF"
+        android:pathData="M600,240m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+    <path
+        android:fillColor="#1AFFFFFF"
+        android:pathData="M960,300m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+</vector> 
